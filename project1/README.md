@@ -13,8 +13,6 @@ Data collection occurs every day at midnight.
 The reddit.py script is configured to run twenty times each day and collects a maximum of 1000 records per day. After reaching the limit, it stops further executions.
 
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8auxQMoN)
-
 
 <html>
 <h2>ReadMe for Reddit and 4chan Data Collection and Storage</h2>
@@ -31,11 +29,11 @@ The reddit.py script is configured to run twenty times each day and collects a m
   
   <h2>Data Parameters</h2>
   db_params:
-    "dbname": "reddit_data",  # Replace with your PostgreSQL database name   
-    "user": "kkamara1",    # Replace with your PostgreSQL username
-    "password": "12345",  # Replace with your PostgreSQL password
+    "dbname": "db_name",  # Replace with your PostgreSQL database name   
+    "user": "user_name",    # Replace with your PostgreSQL username
+    "password": "password",  # Replace with your PostgreSQL password
     "host": "localhost",        # Change if your database is hosted elsewhere
-    "port": "5432"              # Change if your PostgreSQL port is different
+    "port": "1234"              # Change if your PostgreSQL port is different
 
   <\html>
 
@@ -45,8 +43,8 @@ The reddit.py script is configured to run twenty times each day and collects a m
 
   
   db_params:
-    "dbname": "reddit_data",  # Replace with your PostgreSQL database name   
-    "user": "kkamara1",    # Replace with your PostgreSQL username
-    "password": "12345",  # Replace with your PostgreSQL password
+    "dbname": "db_name",  # Replace with your PostgreSQL database name   
+    "user": "user_name",    # Replace with your PostgreSQL username
+    "password": "password",  # Replace with your PostgreSQL password
     "host": "localhost",        # Change if your database is hosted elsewhere
-    "port": "5432"              # Change if your PostgreSQL port is different
+    "port": "1234"              # Change if your PostgreSQL port is different
