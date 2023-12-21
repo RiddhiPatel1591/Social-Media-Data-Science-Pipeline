@@ -5,9 +5,6 @@
 ## Project Introduction
 This project aims to provide insightful analysis and interactive visualizations of social media data, focusing on gun culture and hate speech. Utilizing datasets from platforms like 4Chan and Reddit, the project leverages Python and its robust libraries to process, analyze, and visualize trends and patterns. The centerpiece of the project is a Streamlit-based dashboard that allows users to interactively explore the data, complemented by a Jupyter Notebook for in-depth analysis.
 
-### Project URL
-Visit the interactive dashboard here: [reddit-4chan-dashboard.streamlit.app/](https://reddit-4chan-dashboard.streamlit.app/)
-
 ## Code Explanation
 - **Dashboard.py (Streamlit Script):** This script creates an interactive web dashboard using Streamlit. It loads optimized datasets from 4Chan and Reddit, processes them, and then displays various visualizations like sentiment analysis, keyword frequency, and word clouds. Users can filter data based on dates and platforms.
   
@@ -37,12 +34,6 @@ Visit the interactive dashboard here: [reddit-4chan-dashboard.streamlit.app/](ht
    - Open `Full Analysis.ipynb` in your Jupyter environment.
    - Run each cell in the notebook to see the analysis and visualizations.
 
-### Note:
-1. **why there are two different csv files (optimized) along with main one:**
-When you integrate the entire analysis process directly into your dashboard, it tends to become slower and less user-friendly. 
-Each time you adjust the date, the system reprocesses the entire dataset, which is inefficient. To resolve this, after completing the analysis, 
-we extracted the most valuable data into a new CSV file. This streamlined CSV is then utilized in the dashboard, enhancing performance and user convenience.
 
-  2. In dashboard, actual date starts from Sept 29 to Dec 14
 
 
